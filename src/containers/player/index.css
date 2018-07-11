@@ -1,0 +1,99 @@
+.app-player {
+    background-color: #FFFFFF;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.app-player__container {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    justify-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.app-player__container > *:not(.app-player__progress) {
+    flex: 1 auto;
+    padding: 16px;
+    width: 33.33%;
+}
+
+
+.app-player__progress {
+    background-color: #eaecee;
+    height: 3px;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.app-player__progressbar {
+    background-color: #1DB954;
+    height: 100%;
+    transition: all .3s ease-in;
+    width: 0;
+}
+
+.app-player__center {
+    /*flex: 2 0;*/
+    text-align: center;
+}
+
+.app-player__right {
+    text-align: right;
+}
+
+
+.app-player__track {
+    align-items: center;
+    display: flex;
+    justify-items: center;
+}
+
+.app-player__thumbnail {
+    height: 48px;
+    width: 48px;
+    margin-right: 16px;
+}
+
+.app-player__track h3 {
+    font-size: 13px;
+    margin: 0 0 4px;
+}
+
+.app-player__track h4 {
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0 0 4px;
+}
+
+.app-player__track h4:last-child {
+    color: #999999;
+    margin: 0;
+}
+
+
+.app-player__button {
+    color: #1DB954;
+    height: 48px;
+    width: 48px;
+}
+
+.app-player__button--disabled {
+    cursor: default;
+    opacity: .6;
+}
+
+.app-player__button--circle {
+    background-color: #1DB954;
+    border-radius: 100%;
+    color: #FFFFFF;
+    text-align: center;
+}
+

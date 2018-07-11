@@ -1,0 +1,98 @@
+.app-wrapper {
+  padding-bottom: 96px;
+}
+
+.app-login {
+  padding: 64px;
+  text-align: center;
+}
+
+.app-login-logo,
+.app-loggedin-logo {
+  display: inline-block;
+  height: 60px;
+  font-size: 0;
+  width: 200px;
+}
+
+.app-login-logo:before,
+.app-loggedin-logo:before {
+  background-image: url('./spotify-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.app-loggedin-logo {
+  height: 32px;
+}
+
+.app-page__title {
+  padding-top: 32px;
+}
+
+.app-header {
+  align-items: center;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #eaecee;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.app-header a:last-child {
+  color: #000000;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.app-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.app-grid__item {
+  flex: 0 0 20%;
+  overflow: hidden;
+  padding: 16px;
+}
+
+.app-grid__thumbnailwrapper {
+  position: relative;
+}
+
+.app-grid__thumbnail {
+  background-size: cover;
+}
+
+.app-grid__thumbnail:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.app-grid__meta {
+  background-color: #FFFFFF;
+  height: 80px;
+  padding: 16px;
+}
+
+.app-grid__meta h4 {
+  font-size: 12px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.app-grid__meta .app-grid__title {
+  font-size: 13px;
+  margin-bottom: 4px;
+}

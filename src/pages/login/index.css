@@ -1,0 +1,21 @@
+.app-login {
+  padding: 64px;
+  text-align: center;
+}
+
+.app-login-logo {
+  display: inline-block;
+  height: 60px;
+  font-size: 0;
+  width: 200px;
+}
+
+.app-login-logo:before {
+  background-image: url('./spotify-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+}

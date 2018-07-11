@@ -1,5 +1,27 @@
+html,
 body {
+  font-family: 'Varela Round', sans-serif;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* BRANDING */
+/*
+    * BLACK - #191414
+    * GREEN - #1DB954
+    */
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
 }
