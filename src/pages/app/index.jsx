@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 
 // # Views
-import Player from '../../containers/player'
+import Player from 'containers/player'
 
 // # Utils
-import SpotifyInstance from '../../utils/spotify'
+import SpotifyInstance from 'utils/spotify'
 
 // # CSS
 import './index.css'
